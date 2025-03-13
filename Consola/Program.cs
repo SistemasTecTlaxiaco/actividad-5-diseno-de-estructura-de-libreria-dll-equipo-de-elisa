@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//holaa elisa gei
 namespace Consola
 {
     class Program
@@ -27,7 +27,7 @@ namespace Consola
                     Console.WriteLine("7. Porcentaje");
                     Console.WriteLine("8. Fraccion");
                     Console.WriteLine("9. Exponente");
-                    Console.WriteLine("10.Salir"
+                    Console.WriteLine("10.Salir");
                     Console.WriteLine("------------------------------------------");
                     Console.WriteLine("Elige una de las opciones");
                     int opcion = Convert.ToInt32(Console.ReadLine());
