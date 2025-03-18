@@ -17,7 +17,7 @@ namespace Consola
             {
                 try
                 {
-                    Console.WriteLine("-----------Menu Principal Tec de Tlaxiaco1---------------");
+                    Console.WriteLine("-----------MENU PRINCIPAL TEC de TLAXIACO---------------");
                     Console.WriteLine("1. Sumar dos numeros");
                     Console.WriteLine("2. Restar");
                     Console.WriteLine("3. Multiplicar");
