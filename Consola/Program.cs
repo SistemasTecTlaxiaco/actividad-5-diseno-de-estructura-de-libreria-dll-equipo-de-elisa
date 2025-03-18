@@ -17,7 +17,7 @@ namespace Consola
             {
                 try
                 {
-                    Console.WriteLine("-----------MENU PRINCIPAL TEC de Tlaxiaco---------------");
+                    Console.WriteLine("-----------Menu Principal Tec de Tlaxiaco1---------------");
                     Console.WriteLine("1. Sumar dos numeros");
                     Console.WriteLine("2. Restar");
                     Console.WriteLine("3. Multiplicar");
@@ -104,7 +104,7 @@ namespace Consola
         }
         private static void teclado1()
         {
-            Console.WriteLine("Introduzca el primer numero");
+            Console.WriteLine("Introduzca el primer numero por favor ");
             num1 = double.Parse(Console.ReadLine());
             Console.WriteLine("Introduzca el segundo numero");
             num2 = double.Parse(Console.ReadLine());
