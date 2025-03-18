@@ -29,7 +29,7 @@ namespace Consola
                     Console.WriteLine("9. Logaritmo Base 10");
                     Console.WriteLine("10. Coseno");
                     Console.WriteLine("11. Seno");
-                    Console.WriteLine("12. Salir");
+                    Console.WriteLine("12. Salida");
                     Console.WriteLine("------------------------------------------");
                     Console.WriteLine("Elige una de las opciones");
                     int opcion = Convert.ToInt32(Console.ReadLine());
