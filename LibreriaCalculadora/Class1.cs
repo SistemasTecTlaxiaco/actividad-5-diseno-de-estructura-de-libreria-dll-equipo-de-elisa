@@ -82,7 +82,8 @@ namespace LibreriaCalculadora
 
         public static double coseno(double angulo)
         {
-            return Math.Cos(angulo);
+            double radianes = angulo * (Math.PI / 180);
+            return Math.Cos(radianes);
         }
 
         public static double seno(double angulo)
