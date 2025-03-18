@@ -17,7 +17,7 @@ namespace Consola
             {
                 try
                 {
-                    Console.WriteLine("-----Menu Principal Tec de Tlaxiaco1---");
+                    Console.WriteLine("-----------MENU PRINCIPAL TEC de Tlaxiaco---------------");
                     Console.WriteLine("1. Sumar dos numeros");
                     Console.WriteLine("2. Restar");
                     Console.WriteLine("3. Multiplicar");
@@ -30,7 +30,7 @@ namespace Consola
                     Console.WriteLine("10. Coseno");
                     Console.WriteLine("11. Seno");
                     Console.WriteLine("12. Salida");
-                    Console.WriteLine("------------------------------------------");
+                    Console.WriteLine("<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
                     Console.WriteLine("Elige una de las opciones");
                     int opcion = Convert.ToInt32(Console.ReadLine());
 
