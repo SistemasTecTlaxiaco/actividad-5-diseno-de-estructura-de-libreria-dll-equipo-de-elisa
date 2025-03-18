@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//holaa elisa gei
+
 namespace Consola
 {
     class Program
@@ -26,8 +26,10 @@ namespace Consola
                     Console.WriteLine("6. Potencia");
                     Console.WriteLine("7. Porcentaje");
                     Console.WriteLine("8. Fraccion");
-                    Console.WriteLine("9. Exponente");
-                    Console.WriteLine("10.Salir");
+                    Console.WriteLine("9. Logaritmo Base 10");
+                    Console.WriteLine("10. Coseno");
+                    Console.WriteLine("11. Seno");
+                    Console.WriteLine("12. Salir");
                     Console.WriteLine("------------------------------------------");
                     Console.WriteLine("Elige una de las opciones");
                     int opcion = Convert.ToInt32(Console.ReadLine());
@@ -67,15 +69,26 @@ namespace Consola
                             Console.WriteLine("El resultado de la fraccion es: " + Operaciones.fraccion(num0));
                             break;
                         case 9:
+                            teclado0();
+                            Console.WriteLine("El resultado del logaritmo base 10 es: " + Operaciones.logaritmoBase10(num0));
+                            break;
+                        case 10:
+                            teclado0();
+                            Console.WriteLine("El resultado del coseno es: " + Operaciones.coseno(num0));
+                            break;
+                        case 11:
+                            teclado0();
+                            Console.WriteLine("El resultado del seno es: " + Operaciones.seno(num0));
+                            break;
+                        case 12:
                             Console.WriteLine("Has elegido salir de la aplicación");
                             Environment.Exit(1);
                             salir = true;
                             break;
                         default:
-                            Console.WriteLine("Elige una opcion entre 1 y 9");
+                            Console.WriteLine("Elige una opcion entre 1 y 12");
                             break;
                     }
-
                 }
                 catch (FormatException e)
                 {

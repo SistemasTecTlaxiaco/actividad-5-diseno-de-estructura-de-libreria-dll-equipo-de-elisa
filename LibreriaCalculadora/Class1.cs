@@ -23,18 +23,14 @@ namespace LibreriaCalculadora
             {
                 return uno;
             }
+            else if (dos > uno && dos > tres)
+            {
+                return dos;
+            }
             else
             {
-                if (dos > uno && dos > tres)
-                {
-                    return dos;
-                }
-                else
-                {
-                    return tres;
-                }
+                return tres;
             }
-
         }
 
         public static double potencia(double Base, double exponente)
@@ -60,18 +56,13 @@ namespace LibreriaCalculadora
             {
                 double cociente = numero / estimacion;
                 double promedio = (cociente + estimacion) / 2.0;
-                //Console.WriteLine("estimacion " + estimacion + "cociente " + cociente + "promedio " + promedio);
                 estimacion = promedio;
             }
             return estimacion;
         }
         private static double valorAbsoluto(double numero)
         {
-            if (numero < 0)
-            {
-                return numero * -1;
-            }
-            return numero;
+            return numero < 0 ? -numero : numero;
         }
 
         public static double porcentaje(double porciento, double porcentaje)
@@ -87,6 +78,21 @@ namespace LibreriaCalculadora
         public static double restar(double numero1, double numero2)
         {
             return numero1 - numero2;
+        }
+
+        public static double coseno(double angulo)
+        {
+            return Math.Cos(angulo);
+        }
+
+        public static double seno(double angulo)
+        {
+            return Math.Sin(angulo);
+        }
+
+        public static double logaritmoBase10(double numero)
+        {
+            return Math.Log10(numero);
         }
     }
 }
